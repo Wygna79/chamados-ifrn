@@ -25,44 +25,6 @@ excluir chamados de manutenção.
 - Axios
 - JavaScript
 - CSS
-📁 Estrutura do projeto
-chamados-front/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   └── ChamadoCard.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── NovoChamado.jsx
-│   │   └── ChamadoDetalhes.jsx
-│   ├── services/
-│   │   └── api.js
-│   ├── App.jsx
-│   └── index.css
-├── .env
-├── .gitignore
-├── index.html
-├── package.json
-└── README.md
-🚀 Como executar o projeto
-1. Clonar o repositório
-git clone https://github.com/Wygna79/chamados-ifrn.git
-2. Entrar na pasta do projeto
-cd chamados-ifrn/chamados-front
-3. Instalar as dependências
-npm install
-4. Configurar as variáveis de ambiente
-Crie um arquivo .env dentro da pasta chamados-front:
-VITE_API_KEY=sua_chave_aqui
-⚠️ Importante: nunca publique sua chave da API no GitHub. O
-arquivo .env deve permanecer no .gitignore.
-
-5. Iniciar o projeto
-npm run dev
-Depois, acesse o endereço exibido pelo Vite no terminal, normalmente:
-http://localhost:5173
-🔌 API
-O frontend utiliza uma API REST para realizar as operações de chamados.
 
 Entre os recursos utilizados estão:
 GET    /chamados
@@ -75,6 +37,7 @@ GET    /locais
 GET    /prioridades
 A autenticação da API é realizada por meio da chave configurada na
 variável de ambiente VITE_API_KEY.
+
 🖥️ Principais telas
 Chamados
 Tela principal com busca, filtros e cards dos chamados cadastrados.
